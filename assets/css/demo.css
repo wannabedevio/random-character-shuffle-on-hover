@@ -1,0 +1,103 @@
+/**
+ * demo.css
+ *
+ * Licensed under the MIT license.
+ * https://opensource.org/license/mit/
+ * 
+ * Copyright 2023, WANNABEDEV
+ * https://wannabedev.io
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #18122b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+  height: 100vh;
+}
+body .random .header {
+  font-family: 'Teko', sans-serif;
+  width: 100%;
+  height: auto;
+  z-index: 100;
+  margin-bottom: 1.5rem;
+}
+body .random .header .header-inner {
+  text-align: center;
+  padding: 32px 1.5%;
+}
+@media screen and (max-width: 768px) {
+  body .random .header .header-inner {
+    padding: 16px 16px 0;
+  }
+}
+@media screen and (max-width: 640px) {
+  body .random .header .header-inner {
+    padding: 16px 16px 0 16px;
+  }
+}
+body .random .header .header-inner .logo a {
+  color: #635985;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+body .random .header .header-inner nav {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px 0 24px;
+}
+body .random .header .header-inner nav li {
+  position: relative;
+  display: inline;
+  margin-right: 16px;
+}
+body .random .header .header-inner nav li a {
+  font-family: 'Teko', sans-serif;
+  position: relative;
+  font-weight: 300;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  line-height: 40px;
+  letter-spacing: 1px;
+  transition: all 0.35s ease-in-out;
+}
+body .random .header .header-inner nav li a span {
+  position: relative;
+  z-index: 2;
+}
+body .random .header .header-inner nav li a:hover {
+  opacity: 0.55;
+}
+body .random .demo a {
+  font-family: 'Teko', sans-serif;
+  color: #635985;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: bold;
+  box-shadow: 0 0 2rem 1rem rgba(0, 0, 0, 0.2);
+  background: transparent;
+  padding: 0.6rem;
+  border-radius: 0.4rem;
+  min-width: 200px;
+  border: 1px solid #635985;
+  text-decoration: none;
+  display: block;
+  margin: 0.75rem 0;
+  text-align: center;
+}
