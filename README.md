@@ -2,7 +2,7 @@
 
 Discover the process of creating a captivating text hover effect that can enhance the aesthetics of any website.
 
-![Random Character Shuffle on Hover](https://raw.githubusercontent.com/wannabedevio/random-character-shuffle-on-hover/main/assets/img/random-character-shuffle-on-hover.png)
+![Random Character Shuffle on Hover](/assets/img/random-character-shuffle-on-hover.png)
 
 [Article on WANNABEDEV](https://wannabedev.io/tutorials/random-character-shuffle-on-hover)
 
